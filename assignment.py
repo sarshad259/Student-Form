@@ -9,7 +9,7 @@ import io
 
 # ------------------ PAGE CONFIG ------------------
 st.set_page_config("Digit Predictor", layout="centered")
-st.title("🧠 Digit Recognition")
+st.title("🧠 MNIST Digit Recognition")
 st.markdown("### Draw or upload a digit (0–9) and let the AI guess!")
 
 # ------------------ LOAD & TRAIN MODEL ------------------
