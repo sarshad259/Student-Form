@@ -85,4 +85,5 @@ elif option == "Upload Image":
             confidence = np.max(prediction) * 100
 
             st.success(f"🧩 Predicted Digit: *{pred_digit}*")
+
             st.info(f"Confidence: {confidence:.2f}%")
