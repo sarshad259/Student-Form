@@ -4,7 +4,6 @@ import tensorflow as tf
 from tensorflow.keras.datasets import mnist
 from tensorflow.keras import models, layers
 from PIL import Image, ImageOps
-import matplotlib.pyplot as plt
 import io
 
 # ------------------ PAGE CONFIG ------------------
@@ -87,3 +86,4 @@ elif option == "Upload Image":
             st.success(f"🧩 Predicted Digit: *{pred_digit}*")
 
             st.info(f"Confidence: {confidence:.2f}%")
+
